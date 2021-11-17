@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "menu.css";
+
+body {
+    background: #F5F5F5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 62.5%;
+}
+
+body div, table {
+    font-size: 1rem;
+}
+
+table {
+    margin: 30px 10%;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+#addItem input {
+    border: #95D6B7 solid 1px;
+    border-radius: 5px 0 0 5px;
+    width: 80%;
+    padding: 10px 10px;
+}
+
+#addItem button {
+    background-color: #F5F5F5;
+    border: #95D6B7 solid 1px;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 30px;
+}
+
+#addItem button:hover, #clearItem button:hover, i{
+    cursor: pointer;
+}
+
+#addItem button:hover, #clearItem button:hover {
+    background-color: #FFFF;
+}
+
+#clearItem button {
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    border: solid #95D6B7 1px;
+}
+
+.fa-check-circle {
+    color: #95D6B7;
+}
+
+.fa-edit {
+    color: #45BFE7;
+}
+
+.fa-times-circle {
+    color: #DC5350;
+}
+
+table tr td:first-child {
+    text-align: left;
+}
+
+table tr {
+    text-align: right;
+}
+
+table .action {
+    display: flex;
+    justify-content: space-evenly;
+}
