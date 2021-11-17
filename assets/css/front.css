@@ -20,6 +20,7 @@ body div, table {
 }
 
 table {
+    font-size: 1.5rem;
     margin: 30px 10%;
 }
 
@@ -58,7 +59,7 @@ h1 {
 }
 
 .fa-check-circle {
-    color: #95D6B7;
+    color: #ffffff;
 }
 
 .fa-edit {
@@ -79,5 +80,9 @@ table tr {
 
 table .action {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: right;
+}
+
+table i {
+    margin-right: 15px;
 }
