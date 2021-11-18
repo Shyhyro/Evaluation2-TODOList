@@ -8,7 +8,6 @@ class checkItem {
             e.addEventListener('click', function () {
                 let id = e.dataset.id;
                 e.style.color = "#95D6B7";
-                console.log("Check: " + id);
             })
         })
     }

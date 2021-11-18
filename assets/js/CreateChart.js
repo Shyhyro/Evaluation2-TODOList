@@ -6,7 +6,7 @@ let ctx = document.getElementById('myChart');
 class createChart {
     create = () => {
         new Chart(ctx, {
-            type: "line",
+            type: "bar",
             data: {
                 labels: ['Delete'],
                 datasets: [{
@@ -32,9 +32,15 @@ class createChart {
                 }]
             },
             options: {
+                responsive: false,
                 scales: {
                     y: {
-                        beginAtZero: true
+                        suggestedMax: 20,
+                        beginAtZero: true,
+                        ticks: {
+                            // forces step size to be 5 units
+                            stepSize: 5
+                        }
                     }
                 }
             }

@@ -12,7 +12,6 @@ class actutItems {
         // Iterate over localStorage and insert into table
         for (let i=0; i < localStorage.length; i++) {
             if (localStorage.key(i).substring(0, 4) == 'Item') {
-                console.log("Add: " + localStorage.getItem(localStorage.key(i)));
                 let tr = document.createElement('tr');
                 this.table.appendChild(tr);
                 tr.innerHTML = "<td id='"+ localStorage.key(i) +"'>"+ localStorage.getItem(localStorage.key(i)) +"</td>" +

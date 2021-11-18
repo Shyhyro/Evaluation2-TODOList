@@ -7,6 +7,7 @@
 @import "menu.css";
 
 body {
+    color: #333333;
     background: #F5F5F5;
     text-align: center;
     display: flex;
@@ -59,7 +60,7 @@ h1 {
 }
 
 .fa-check-circle {
-    color: #ffffff;
+    color: #333333;
 }
 
 .fa-edit {
@@ -84,5 +85,7 @@ table .action {
 }
 
 table i {
-    margin-right: 15px;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    margin-left: 15px;
 }
