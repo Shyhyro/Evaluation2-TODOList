@@ -1,4 +1,4 @@
-import {actutItems} from "./actutItems";
+import {actutItems} from "./actutItems.mjs";
 
 class newItem {
     constructor() {

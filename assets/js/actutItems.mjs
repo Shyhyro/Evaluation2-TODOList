@@ -1,6 +1,6 @@
-import {checkItem} from "./checkItem";
-import {deleteItem} from "./deleteItem";
-import {updateItem} from "./updateItem";
+import {checkItem} from "./checkItem.mjs";
+import {deleteItem} from "./deleteItem.mjs";
+import {updateItem} from "./updateItem.mjs";
 
 class actutItems {
     constructor() {

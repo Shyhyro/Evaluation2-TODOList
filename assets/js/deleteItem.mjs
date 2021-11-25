@@ -1,5 +1,5 @@
-import {actutItems} from "./actutItems";
-import {createChart} from "./CreateChart";
+import {actutItems} from "./actutItems.mjs";
+import {createChart} from "./CreateChart.mjs";
 
 class deleteItem {
     constructor() {

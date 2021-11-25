@@ -1,8 +1,7 @@
-import {createChart} from "./js/CreateChart";
-import {clearItem} from "./js/clearItem";
-import {newItem} from "./js/newItem";
-import {actutItems} from "./js/actutItems";
-
+import {createChart} from "./js/CreateChart.mjs";
+import {clearItem} from "./js/clearItem.mjs";
+import {newItem} from "./js/newItem.mjs";
+import {actutItems} from "./js/actutItems.mjs";
 import "./css/front.css";
 
 if (localStorage.getItem("delete") === null || localStorage.getItem("delete") === undefined || localStorage.getItem("delete") === "NaN") {
